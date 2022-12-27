@@ -25,3 +25,53 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Solution Below */
+
+/* remove list & link styling  */
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+/**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer {
+  display: flex;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
